@@ -1,7 +1,6 @@
 # bung
 
-[![Build Status: Linux](https://travis-ci.org/simongregory/bung.svg?branch=master]](https://travis-ci.org/simongregory/bung)
-
+[![Build Status](https://travis-ci.org/simongregory/bung.svg?branch=master)](https://travis-ci.org/simongregory/bung)
 Random methods awaiting a proper home.
 
 ## Install
