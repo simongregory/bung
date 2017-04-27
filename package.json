@@ -1,6 +1,6 @@
 {
   "name": "bung",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Random methods awaiting a proper home",
   "engines": {
     "node": ">=7.0.0"
