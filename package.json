@@ -2,6 +2,9 @@
   "name": "bung",
   "version": "0.1.0",
   "description": "Random methods awaiting a proper home",
+  "engines": {
+    "node": ">=7.0.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "xo && ava"
