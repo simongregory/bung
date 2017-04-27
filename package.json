@@ -1,0 +1,32 @@
+{
+  "name": "bung",
+  "version": "0.0.0",
+  "description": "Random methods awaiting a proper home",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simongregory/bung.git"
+  },
+  "author": "Simon Gregory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simongregory/bung/issues"
+  },
+  "homepage": "https://github.com/simongregory/bung#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint-config-xo-sg": "^0.1.0",
+    "sinon": "^2.1.0",
+    "xo": "^0.18.1"
+  },
+  "xo": {
+    "extends": "eslint-config-xo-sg"
+  },
+  "dependencies": {
+    "pify": "^2.3.0",
+    "xml2js": "^0.4.17"
+  }
+}
