@@ -1,6 +1,7 @@
 # bung
 
-[![Build Status](https://travis-ci.org/simongregory/bung.svg?branch=master)](https://travis-ci.org/simongregory/bung)
+[![Build Status](https://travis-ci.org/simongregory/bung.svg?branch=master)](https://travis-ci.org/simongregory/bung) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/simongregory/bung?branch=master&svg=true)](https://ci.appveyor.com/project/SimonGregory/bung)
+
 Random methods awaiting a proper home.
 
 ## Install
