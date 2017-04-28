@@ -1,6 +1,6 @@
 # bung
 
-[![Build Status](https://travis-ci.org/simongregory/bung.svg?branch=master)](https://travis-ci.org/simongregory/bung) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/simongregory/bung?branch=master&svg=true)](https://ci.appveyor.com/project/SimonGregory/bung)
+[![Build Status](https://travis-ci.org/simongregory/bung.svg?branch=master)](https://travis-ci.org/simongregory/bung) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/simongregory/bung?branch=master&svg=true)](https://ci.appveyor.com/project/SimonGregory/bung) [![Coverage Status](https://coveralls.io/repos/github/simongregory/bung/badge.svg?branch=master)](https://coveralls.io/github/simongregory/bung?branch=master)
 
 Random methods awaiting a proper home.
 
