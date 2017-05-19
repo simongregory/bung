@@ -26,11 +26,11 @@
   "homepage": "https://github.com/simongregory/bung#readme",
   "devDependencies": {
     "ava": "^0.19.1",
-    "eslint-config-xo-sg": "^0.1.0",
-    "sinon": "^2.1.0",
-    "xo": "^0.18.1",
     "coveralls": "^2.13.1",
-    "nyc": "^10.2.0"
+    "eslint-config-xo-sg": "^0.1.0",
+    "nyc": "^10.3.2",
+    "sinon": "^2.2.0",
+    "xo": "^0.18.2"
   },
   "xo": {
     "extends": "eslint-config-xo-sg"
