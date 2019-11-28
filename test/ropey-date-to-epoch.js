@@ -1,5 +1,5 @@
 import test from 'ava';
-import { ropeyDateToEpoch } from '../';
+import { ropeyDateToEpoch } from '..';
 
 test('recognises hours am', t => {
   t.is(ropeyDateToEpoch('8am 19 Mar 2014'), 1395216000000);

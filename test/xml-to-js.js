@@ -6,9 +6,9 @@ test('converts xml to, erm, a js object', async t => {
 });
 
 test('converts nothing to null', async t => {
-  t.deepEqual(await toJS(''), null);
+  t.is(await toJS(''), null);
 });
 
 test('throws errors with bad input', async t => {
-  await t.throws(toJS('<bad></bbad>'), /Error: Unexpected close tag/);
+  await t.throwsAsync(toJS('<bad></bbad>'), /Unexpected close tag/);
 });

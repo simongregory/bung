@@ -1,5 +1,5 @@
 import test from 'ava';
-import { getDayAbbrName } from '../';
+import { getDayAbbrName } from '..';
 
 test('sunday', t => {
   t.is(getDayAbbrName(0), 'Sun');
