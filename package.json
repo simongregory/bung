@@ -26,18 +26,22 @@
   },
   "homepage": "https://github.com/simongregory/bung#readme",
   "devDependencies": {
-    "ava": "^2.4.0",
+    "@ava/babel": "^1.0.1",
+    "ava": "3.8.2",
     "coveralls": "^3.0.9",
     "eslint-config-xo-sg": "^0.2.0",
-    "nyc": "^14.1.1",
-    "sinon": "^7.5.0",
-    "xo": "^0.25.3"
+    "nyc": "15.0.1",
+    "sinon": "9.0.2",
+    "xo": "0.30.0"
   },
   "xo": {
     "extends": "eslint-config-xo-sg"
   },
+  "ava": {
+    "babel": true
+  },
   "dependencies": {
-    "pify": "^4.0.1",
+    "pify": "5.0.0",
     "xml2js": "^0.4.22"
   }
 }

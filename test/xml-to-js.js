@@ -10,5 +10,7 @@ test('converts nothing to null', async t => {
 });
 
 test('throws errors with bad input', async t => {
-  await t.throwsAsync(toJS('<bad></bbad>'), /Unexpected close tag/);
+  await t.throwsAsync(toJS('<bad></bbad>'), {
+    message: /Unexpected close tag/
+  });
 });
