@@ -12,7 +12,7 @@ Random methods awaiting a proper home.
 
       import { toJS, fillCurlies, getDayAbbrName, ropeyDateToEpoch } from 'bung';
       
-      toJS('<x>ml</x>');                        // { x:'ml' }
+      await toJS('<x>ml</x>');                  // { x:'ml' }
       fillCurlies('a{z}c', {z:'b'});            // 'abc'
       getDayAbbrName(new Date(0).getUTCDay());  // 'Thu'
       ropeyDateToEpoch('1 Jan 1970');           // 0
