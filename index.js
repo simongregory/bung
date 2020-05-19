@@ -1,6 +1,6 @@
 const fillCurlies = require('./lib/fill-curlies');
 const getDayAbbrName = require('./lib/get-day-abbr-name');
-const toJS = require('./lib/xml-to-js');
+const { toJS, toJSStrict } = require('./lib/xml-to-js');
 const ropeyDateToEpoch = require('./lib/ropey-date-to-epoch');
 
 function bung() {
@@ -8,4 +8,4 @@ function bung() {
   return 'just bung it there for now...';
 }
 
-module.exports = { bung, fillCurlies, toJS, getDayAbbrName, ropeyDateToEpoch };
+module.exports = { bung, fillCurlies, toJS, toJSStrict, getDayAbbrName, ropeyDateToEpoch };
